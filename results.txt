@@ -1,0 +1,34 @@
+Bitcoin OHLC Price Prediction Results
+====================================
+Symbol: BTC-USD
+Features predicted: Open, High, Low, Close
+Time Range: Last 5 Years
+Model: stacked LSTM (64, 64 units)
+Training Epochs: 20
+Batch Size: 32
+------------------------------------
+Open Metrics:
+  - RMSE: 3235.85
+  - MAE: 2561.28
+  - MAPE: 2.61%
+  - R2 Score: 0.9651
+------------------------------------
+High Metrics:
+  - RMSE: 2981.70
+  - MAE: 2295.78
+  - MAPE: 2.38%
+  - R2 Score: 0.9703
+------------------------------------
+Low Metrics:
+  - RMSE: 3960.10
+  - MAE: 3143.24
+  - MAPE: 3.26%
+  - R2 Score: 0.9478
+------------------------------------
+Close Metrics:
+  - RMSE: 3906.95
+  - MAE: 2971.43
+  - MAPE: 3.22%
+  - R2 Score: 0.9494
+------------------------------------
+Timestamp: 2026-04-16 21:31:05.882811

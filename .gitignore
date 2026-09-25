@@ -1,0 +1,31 @@
+# Virtual Environments
+venv/
+venv_win/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Models (if they are too large or system-specific)
+# btc_lstm_model.keras  # Uncomment if you don't want to push the model
+# scaler.joblib
+
+# Local System Generated
+.system_generated/
+.gemini/
+brain/
+knowledge/
+artifacts/
+walkthrough.md
+task.md
+implementation_plan.md
+
+# Log and Output Files
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
